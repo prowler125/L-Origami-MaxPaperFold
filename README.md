@@ -1,3 +1,3 @@
 # Progetti-Personali
 Questa è una repository riguardante tutti i miei Progetti...
-Se siete giunti qui vuol dire che vi ho invitato a collaborare a uno o più di questi Progetti, grazie per l'attenzione.
+Se siete giunti qui vuol dire che Vi ho invitato a collaborare a uno o più di questi Progetti, grazie per l'attenzione.
