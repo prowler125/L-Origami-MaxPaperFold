@@ -1,20 +1,14 @@
 #include <iostream>
 #include <stdlib.h>
 #include <time.h>
-
 using namespace std;
-
-// Dichiarazione delle variabili globali
 
 int labirinto[10][10];
 int x, y;
 int cavaliere;
 
-// Funzione per generare il labirinto
-
 void generaLabirinto()
 {
-    // Inizializza il labirinto con dei muri
     for (int i = 0; i < 10; i++)
     {
         for (int j = 0; j < 10; j++)
@@ -23,7 +17,6 @@ void generaLabirinto()
         }
     }
 
-    // Genera le porte
     for (int i = 0; i < 10; i++)
     {
         for (int j = 0; j < 10; j++)
@@ -35,14 +28,10 @@ void generaLabirinto()
         }
     }
 
-    // Genera il cavaliere
     x = rand() % 10;
     y = rand() % 10;
     cavaliere = 1;
 }
-
-// Funzione per stampare il labirinto
-
 void stampaLabirinto()
 {
     for (int i = 0; i < 10; i++)
@@ -65,9 +54,6 @@ void stampaLabirinto()
         cout << endl;
     }
 }
-
-// Funzione per controllare se il cavaliere è in una trappola
-
 bool inTrappola()
 {
     if (labirinto[x][y] == 2)
@@ -79,9 +65,6 @@ bool inTrappola()
         return false;
     }
 }
-
-// Funzione per controllare se il cavaliere ha raggiunto il centro
-
 bool raggiuntoCentro()
 {
     if (x == 4 && y == 5)
@@ -93,8 +76,6 @@ bool raggiuntoCentro()
         return false;
     }
 }
-
-// Funzione per spostare il cavaliere
 
 void spostaCavaliere(int dx, int dy)
 {
@@ -135,3 +116,4 @@ int main()
             break;
         }
     }
+}
