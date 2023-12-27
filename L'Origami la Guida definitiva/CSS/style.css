@@ -1,0 +1,38 @@
+          .container {
+            position: sticky;
+            width: 50%;
+          }
+
+          .image {
+            display: block;
+            width: 20%;
+            height: 20%;
+          }
+
+          .overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+            width: 20%;
+            opacity: 0;
+            background-color: #a58d04;
+          }
+
+          .container:hover .overlay {
+            opacity: 1;
+          }
+
+          .text {
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+            font-family: "Times New Roman", Times, serif;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transition: 1s ease;
+        }
