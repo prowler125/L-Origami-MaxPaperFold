@@ -1,17 +1,19 @@
 <html lang="it">
   <head>
+    <link rel="stylesheet" href="../ImageStyle.css" />
+    <script src="../ImageStyle.js"></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>La Storia</title>
     <style>
       a.button {
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
+        -webkit-appearance: button;
+        -moz-appearance: button;
+        appearance: button;
 
-    text-decoration: none;
-    color: initial;
-}
+        text-decoration: none;
+        color: initial;
+      }
     </style>
   </head>
   <body>
@@ -35,10 +37,7 @@
     </p>
     <h2>Il Periodo Heian</h2>
     <p>
-      <img
-        src="C:\Users\Jace Wayland\Desktop\Progetti-Personali\L'Origami la
-      Guida definitiva\images\Periodo Heian.jpg"
-      />
+      <img src="../images/Periodo Heian.jpg" />
       Il periodo di affermazione degli origami nella religione shintoista e
       nella cultura giapponese è riconducibile al periodo Heian, durante il
       quale la corte imperiale raggiunse l'apice della propria raffinatezza. È
@@ -116,8 +115,15 @@
     <h2>Il Periodo Edo</h2>
     <p>
       <img
-        src="C:\Users\Jace Wayland\Desktop\Progetti-Personali\L'Origami la Guida definitiva\images\Periodo Edo.jpg"
+        id="PeriodoEdo"
+        src="../images/Periodo Edo.jpg"
+        alt="Documento risalente al Periodo Edo"
+        style="width: 100%; max-width: 300px"
       />
+      <div id="PeriodoEdo" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="PeriodoEdo" />
+        <div id="caption"></div>
       La fioritura dell'origami nel periodo Edo è generalmente esemplificata con
       la storia della figura della gru, oggi uno degli origami tradizionali
       giapponesi più noti e la cui tecnica venne perfezionata proprio attorno al
