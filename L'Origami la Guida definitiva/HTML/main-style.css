@@ -1,11 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-p {
+h1 {
   font-family: "Montserrat", sans-serif;
-  font-size: 17.5px;
-  color: #333;
+  font-size: 35px;
+  color: black;
 }
-hgroup {
-  font-family: "Quakiez";
-  src: url("C:/Users/Prowler/Downloads/quakiez/Quakiez.ttf") format("truetype"),
-    url("C:/Users/Prowler/Downloads/quakiez/Quakiez.ttf") format("woff");
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  color: black;
+}
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+  font-size: 18px;
+  color: black;
 }
