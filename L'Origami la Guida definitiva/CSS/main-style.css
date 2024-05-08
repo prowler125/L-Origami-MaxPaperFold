@@ -77,7 +77,7 @@ body {
     text-align: left;
   }
 }
-button {
+.btn {
   appearance: none;
   border-radius: 5px;
   outline: none;
@@ -87,11 +87,12 @@ button {
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
-  cursor: default;
   width: min-content;
   transition-duration: 1.2s;
+  text-decoration: none;
 }
-button:hover {
+.btn:hover {
+  cursor: pointer;
   transition-behavior: smooth;
   transition-duration: 1.2s;
   background-color: #9400d3;
