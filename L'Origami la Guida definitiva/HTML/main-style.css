@@ -52,10 +52,6 @@ body {
   color: white;
 }
 
-.topnav .icon {
-  display: none;
-}
-
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {
     display: none;
@@ -91,7 +87,7 @@ button {
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
-  cursor: pointer;
+  cursor: default;
   width: min-content;
   transition-duration: 1.2s;
 }
@@ -99,4 +95,7 @@ button:hover {
   transition-behavior: smooth;
   transition-duration: 1.2s;
   background-color: #9400d3;
+}
+html {
+  scroll-behavior: smooth;
 }
