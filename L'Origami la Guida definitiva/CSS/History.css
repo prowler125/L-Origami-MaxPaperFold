@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+header {
+  animation: ease-in-out;
+  background-color: #787575;
+  color: white;
+  text-align: center;
+  padding: 1px;
+}
+h1 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px;
+  color: rgb(0, 0, 0);
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  color: black;
+}
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+  font-size: 18px;
+  color: black;
+}
+button {
+  appearance: none;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: #4f01016f;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  width: min-content;
+  transition-duration: 1.2s;
+  text-decoration: none;
+}
+button:hover {
+  cursor: pointer;
+  transition-behavior: smooth;
+  transition-duration: 1.2s;
+  background-color: #4f0101;
+}
+article {
+  display: flexbox;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  padding: 20px;
+  width: 80%;
+  background-color: #504a4a37;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.54);
+}
