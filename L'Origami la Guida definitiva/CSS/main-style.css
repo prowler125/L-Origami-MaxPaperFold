@@ -7,8 +7,8 @@ header {
   padding: 1px;
 }
 h1 {
-text-align: center;
-font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
   font-size: 35px;
   color: rgb(255, 255, 255);
 }
@@ -18,6 +18,8 @@ h2 {
   color: black;
 }
 p {
+  margin-left: 5px;
+  margin-right: 5px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif, sans-serif;
   font-size: 18px;
   color: black;
