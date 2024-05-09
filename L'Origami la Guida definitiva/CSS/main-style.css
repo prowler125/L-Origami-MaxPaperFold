@@ -26,7 +26,11 @@ p {
   font-size: 18px;
   color: black;
 }
-
+.Dragon {
+  height: 50%;
+  width: 50%;
+  image-resolution: 100px;
+}
 .login {
   float: right;
   text-align: center;
