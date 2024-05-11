@@ -105,11 +105,10 @@ article {
   justify-content: left;
   margin-left: 5px;
   margin-right: 5px;
-  margin-top: 3px;
-  margin-bottom: 3px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   padding: 20px;
   width: 80%;
   background-color: #504a4a37;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.54);
 }
