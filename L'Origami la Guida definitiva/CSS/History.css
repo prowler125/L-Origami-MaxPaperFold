@@ -83,20 +83,19 @@ button {
   border-radius: 5px;
   outline: none;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  background-color: #4f01016f;
-  color: white;
+  background-color: #2a065281;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
-  width: min-content;
+  width: 10%;
   transition-duration: 1.2s;
   text-decoration: none;
 }
 button:hover {
+  background-color: #0eaa3a;
   cursor: pointer;
   transition-behavior: smooth;
   transition-duration: 1.2s;
-  background-color: #4f0101;
 }
 article {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
