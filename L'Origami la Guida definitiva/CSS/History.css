@@ -59,6 +59,9 @@ header {
   text-align: center;
   padding: 1px;
 }
+.socialStructure {
+  font-weight: bold;
+}
 h1 {
   text-align: center;
   font-family: "Montserrat", sans-serif;
