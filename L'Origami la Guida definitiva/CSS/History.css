@@ -79,15 +79,16 @@ p {
   color: black;
 }
 button {
+  color: white;
   appearance: none;
-  border-radius: 5px;
+  border-radius: 8px;
   outline: none;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   background-color: #2a065281;
   padding: 14px 20px;
-  margin: 8px 0;
+  margin-left: 37.5%;
   border: none;
-  width: 10%;
+  width: 25%;
   transition-duration: 1.2s;
   text-decoration: none;
 }
@@ -119,10 +120,41 @@ button:hover {
   align-items: right;
   margin-right: 1%;
   margin-left: 5%;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 3%;
+  margin-bottom: 3%;
   padding: 20px;
   width: 80%;
   background-color: #504a4a37;
   border-radius: 10px;
+}
+.edo {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flexbox;
+  flex-direction: column;
+  align-items: left;
+  margin-right: 5%;
+  margin-left: 1%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  padding: 20px;
+  width: 80%;
+  background-color: #504a4a37;
+  border-radius: 10px;
+}
+.modern {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flexbox;
+  flex-direction: column;
+  align-items: left;
+  margin-right: 1%;
+  margin-left: 5%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  padding: 20px;
+  width: 80%;
+  background-color: #504a4a37;
+  border-radius: 10px;
+}
+.imgRadius {
+  border-radius: 15px;
 }
