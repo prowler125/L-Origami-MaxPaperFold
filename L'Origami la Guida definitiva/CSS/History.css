@@ -97,16 +97,30 @@ button:hover {
   transition-behavior: smooth;
   transition-duration: 1.2s;
 }
-article {
+
+.origin {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   display: flexbox;
   flex-direction: column;
   align-items: left;
-  justify-content: left;
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-left: 1%;
+  margin-right: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 20px;
+  width: 80%;
+  background-color: #504a4a37;
+  border-radius: 10px;
+}
+.heian {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flexbox;
+  flex-direction: column;
+  align-items: right;
+  margin-right: 1%;
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
   padding: 20px;
   width: 80%;
   background-color: #504a4a37;
