@@ -1,53 +1,63 @@
 <!DOCTYPE html>
 <head>
-  <link rel="stylesheet" type="text/css" href="../Gallery/PublicGallery.css" />
-  <script src="../Gallery/PublicGallery.js"></script>
-  <title>Galleria Pubblica</title>
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="../Gallery/PersonalGallery.css"
+  />
+  <script src="../Gallery/PersonalGallery.js"></script>
+  <title>Galleria Personale</title>
 </head>
 <body>
   <header>
-    <h1>Galleria Pubblica</h1>
+    <h1>La mia Galleria</h1>
   </header>
   <div class="topnav">
     <a href="../HTML/index.html">Home</a>
-    <a class="active" href="../Gallery/PublicGallery.html"
-      >Galleria degli Origami</a
+    <a href="../Gallery/PublicGallery.html">Galleria Pubblica</a>
+    <a class="active" href="../Gallery/PersonalGallery.html"
+      >Galleria Personale</a
     >
-    <a href="../Gallery/PersonalGallery.html">Galleria Personale</a>
     <a href="..//HTML/La Storia.html">La Storia dell'Origami</a>
     <a href="..//HTML/Le Pieghe.html">Le Pieghe</a>
     <a class="login" href="..//SignIn-SignUp/login.html">Area Personale</a>
   </div>
   <p>
-    Questa è la Galleria Pubblica, dove potete ammirare alcune delle Opere più
-    belle progettate e realizzate dai più grandi Origamisti al mondo.
+    Questa è la mia Galleria personale in cui troverete dei miei progetti e
+    Origami che ho realizzato. Spero che vi piacciano!
   </p>
-  <!-- Container for the image gallery -->
   <div class="container">
-    <!-- Full-width images with number text -->
     <div class="mySlides">
       <div class="numbertext">1 / 5</div>
-      <img src="../images/Origami Dragon.png" style="width: 25%" />
+      <img src="../images/Kusudama.jpg" style="width: 25%" />
     </div>
 
     <div class="mySlides">
       <div class="numbertext">2 / 5</div>
-      <img src="../images/Origami Eagle.jpg" style="width: 25%" />
+      <img src="../images/Camicia.jpg" style="width: 25%" />
     </div>
 
     <div class="mySlides">
       <div class="numbertext">3 / 5</div>
-      <img src="../images/Origami Ancient Soldier.jpg" style="width: 25%" />
+      <img src="../images/Vestitodonna.jpg" style="width: 25%" />
     </div>
 
     <div class="mySlides">
       <div class="numbertext">4 / 5</div>
-      <img src="../images/Origami Scorpion.jpg" style="width: 25%" />
+      <img src="../images/Vestiticombo.jpg" style="width: 25%" />
     </div>
 
     <div class="mySlides">
       <div class="numbertext">5 / 5</div>
-      <img src="../images/Origami Dragon (2 Ver.).jpg" style="width: 25%" />
+      <img src="../images/Tulipano.jpg" style="width: 25%" />
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">5 / 6</div>
+      <img src="../images/Tulipano2.jpg" style="width: 25%" />
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">5 / 5</div>
+      <img src="../images/Kusudama2.jpg" style="width: 25%" />
     </div>
     <!-- Next and previous buttons -->
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -63,7 +73,7 @@
       <div class="column">
         <img
           class="demo cursor"
-          src="../images/Origami Dragon.png"
+          src="../images/Kusudama.jpg"
           style="width: 50%"
           onclick="currentSlide(1)"
           alt="Drago Origami"
@@ -72,7 +82,7 @@
       <div class="column">
         <img
           class="demo cursor"
-          src="../images/Origami Eagle.jpg"
+          src="../images/Camicia.jpg"
           style="width: 50%"
           onclick="currentSlide(2)"
           alt="Aquila Origami"
@@ -81,7 +91,7 @@
       <div class="column">
         <img
           class="demo cursor"
-          src="../images/Origami Ancient Soldier.jpg"
+          src="../images/Vestitodonna.jpg"
           style="width: 50%"
           onclick="currentSlide(3)"
           alt="Antico soldato Origami"
@@ -90,7 +100,7 @@
       <div class="column">
         <img
           class="demo cursor"
-          src="../images/Origami Scorpion.jpg"
+          src="../images/Vestiticombo.jpg"
           style="width: 50%"
           onclick="currentSlide(4)"
           alt="Scorpione Origami"
@@ -99,10 +109,19 @@
       <div class="column">
         <img
           class="demo cursor"
-          src="../images/Origami Dragon (2 Ver.).jpg"
+          src="../images/Tulipano.jpg"
           style="width: 50%"
           onclick="currentSlide(5)"
           alt="Drago Origami (Ver.2)"
+        />
+      </div>
+      <div class="column">
+        <img
+          class="demo cursor"
+          src="../images/Tulipano2.jpg"
+          style="width: 50%"
+          onclick="currentSlide(6)"
+          alt="Aquila Origami (Ver.2)"
         />
       </div>
     </div>
