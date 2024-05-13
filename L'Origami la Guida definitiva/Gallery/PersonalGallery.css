@@ -140,7 +140,14 @@
 .demo:hover {
   opacity: 1;
 }
-
+h1 {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: white;
+}
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
 header {
   animation: ease-in-out;
   background-color: #787575;
