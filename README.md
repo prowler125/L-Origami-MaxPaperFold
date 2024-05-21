@@ -1,3 +1,2 @@
-# Progetti-Personali
-Questa è una repository riguardante tutti i miei Progetti...
-Se siete giunti qui vuol dire che vi ho invitato a collaborare a uno o più di questi Progetti, grazie per l'attenzione.
+# L'Origami: MaxPaperFold
+Questa è la repository riguardante il mio Progetto per il Capolavoro nell'A.S. 2023/2024.
