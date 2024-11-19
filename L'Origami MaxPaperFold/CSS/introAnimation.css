@@ -4,41 +4,52 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: #000;
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
   animation: fade-up 1.5s ease-in-out forwards;
 }
 
 @keyframes fade-up {
   0% {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateY(0) scale(1);
   }
   100% {
     opacity: 0;
-    transform: translateY(-100%);
+    transform: translateY(-100%) scale(0.8);
   }
 }
 
 #introAnimation::after {
-  content: icon;
+  content: '';
   position: absolute;
-  top: 100%;
-  left: 100%;
-  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.5);
   width: 200px;
   height: 200px;
-  background-image: url(..//images/Intro/Logo.svg);
-  background-size: auto;
-  background-position: center;
+  background-image: url('../images/Intro/Logo.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
   opacity: 0;
-  animation: fade-in 1.5s ease-in-out forwards;
+  animation: fade-in 1.5s ease-in-out forwards 1.5s, rotate 1.5s ease-in-out forwards 1.5s;
 }
 
 @keyframes fade-in {
   0% {
     opacity: 0;
+    transform: translate(-50%, -50%) scale(0.5);
   }
   100% {
     opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: translate(-50%, -50%) scale(1) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1) rotate(360deg);
   }
 }
