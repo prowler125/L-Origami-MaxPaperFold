@@ -8,29 +8,29 @@
 }
 
 body {
-  background-color: #c9d6ff;
   background: linear-gradient(to right, #e2e2e2, #c9d6ff);
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
   height: 100vh;
+  overflow: hidden;
 }
 
 .container {
   background-color: #fff;
-  border-radius: 30px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   position: relative;
   overflow: hidden;
   width: 768px;
   max-width: 100%;
   min-height: 480px;
+  transition: all 0.3s ease-in-out;
 }
 
 .container p {
   font-size: 14px;
-  line-height: 20px;
+  line-height: 1.5;
   letter-spacing: 0.3px;
   margin: 20px 0;
 }
@@ -40,29 +40,40 @@ body {
 }
 
 .container a {
-  color: #333;
+  color: #220dc3;
   font-size: 13px;
   text-decoration: none;
   margin: 15px 0 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+.container a:hover {
+  color: #000;
 }
 
 .container button {
   background-color: #220dc3;
   color: #fff;
-  font-size: 12px;
-  padding: 10px 45px;
-  border: 1px solid transparent;
-  border-radius: 8px;
+  font-size: 14px;
+  padding: 12px 50px;
+  border: none;
+  border-radius: 25px;
   font-weight: 600;
   letter-spacing: 0.5px;
   text-transform: uppercase;
   margin-top: 10px;
   cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.container button:hover {
+  background-color: #1a0a99;
 }
 
 .container button.hidden {
   background-color: transparent;
-  border-color: #fff;
+  border: 1px solid #220dc3;
+  color: #220dc3;
 }
 
 .container form {
@@ -76,14 +87,19 @@ body {
 }
 
 .container input {
-  background-color: #eee;
+  background-color: #f0f0f0;
   border: none;
   margin: 8px 0;
-  padding: 10px 15px;
-  font-size: 13px;
-  border-radius: 8px;
+  padding: 12px 15px;
+  font-size: 14px;
+  border-radius: 25px;
   width: 100%;
   outline: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.container input:focus {
+  background-color: #e0e0e0;
 }
 
 .form-container {
@@ -136,13 +152,18 @@ body {
 
 .social-icons a {
   border: 1px solid #ccc;
-  border-radius: 20%;
+  border-radius: 50%;
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  margin: 0 3px;
+  margin: 0 5px;
   width: 40px;
   height: 40px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+  border-color: #220dc3;
 }
 
 .toggle-container {
@@ -153,13 +174,13 @@ body {
   height: 100%;
   overflow: hidden;
   transition: all 0.6s ease-in-out;
-  border-radius: 150px 0 0 100px;
+  border-radius: 150px 0 0 150px;
   z-index: 1000;
 }
 
 .container.active .toggle-container {
   transform: translateX(-100%);
-  border-radius: 0 150px 100px 0;
+  border-radius: 0 150px 150px 0;
 }
 
 .toggle {
